@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="" href="stylsheet">
+  <link rel="stylesheet" href="index.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <script src="script.js"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo&family=Gloock&family=Inter:wght@300&family=Josefin+Sans:wght@300&family=League+Spartan&family=Marck+Script&family=Open+Sans&family=Poppins:ital,wght@0,400;1,300&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <div class="sideBar">
+      <div class="whatsapp sideBarSpace">
+        <a href="https://api.whatsapp.com/send?phone=7236870938&text=Hi" target="_blank">
+          <img src="logo/whatsapp.png" alt="" class="whatsappLogo">
+        </a>
+      </div>
+      <div class="call sideBarSpace">
+        <a href="tel:9506695760" target="_blank">
+          <img src="logo/call.png" alt="" class="CallLogo">
+        </a>
+      </div>
+      <div class="mail sideBarSpace">
+        <a href="mailto:https://akhileshkumarprajapati7706@gmail.com" target="_blank">
+          <img src="logo/mail.png" alt="" class="MailLogo">
+        </a>
+      </div>
+    </div>
+    <div class="subContainer">
+      <div class="header">
+        <div class="banner">
+          <div class="bannerContainer">
+            <img src="FrontDisplay/slide2.jpg" alt="">
+            <img src="FrontDisplay/slide3.jpg" alt="" class="B_Slides">
+            <img src="FrontDisplay/slide4.jpg" alt="" class="B_Slides">
+            <img src="FrontDisplay/slide1.jpg" alt="" class="B_Slides">
+            <img src="FrontDisplay/slide5.jpg" alt="" class="B_Slides">
+            <img src="FrontDisplay/slide6.jpg" alt="" class="B_Slides">
+            <img src="FrontDisplay/slide7.jpg" alt="" class="B_Slides">
+            <img src="FrontDisplay/slide8.jpg" alt="" class="B_Slides">
+          </div>
+          <div class="navbar">
+            <div class="nav fullSideMarginPadding">
+              <div class="companyName">
+                <div class="companyNameAndLog">
+                  <img src="logo/Logo.png" alt="">
+                  <div class="CompNameAndCap">
+                    <b>Glossy Picture Factory</b>
+                    <p>Perfetion is our Policy</p>
+                  </div>
+                </div>
+              </div>
+              <div class="headerNav" >
+                <ul id="NavLists">
+                  <li class="listHover">HOME</li>
+                  <li class="listHover" onclick="portfolioFunction()">PORTFOLIO</li>
+                  <li class="listHover">SERVICES</li>
+                  <li class="listHover">CONTACT</li>
+                  <li class="listHover">ABOUT</li>
+                </ul>
+              </div>
+              <div class="humbarger" onclick="callHumbarger()">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="sectionOne fullSideMarginPadding">
+          <div class="sectionOne_container ">
+            <div class="sectionOneContainerCol1">
+              <div class="sectionOneCol1">
+                <div class="sectionOneHeading">
+                  <h3>
+                    <p>Cinematic & Wedding</p> Photography
+                  </h3>
+                </div>
+                <div class="sectionOneCaption">
+                  <p>The picturesque venue, adorned with elegant flowers and sparkling lights, provided the perfect
+                    backdrop for this extraordinary wedding shoot. Every frame captured the essence of their love, with
+                    the bride's radiant smile illuminating the screen and the groom's eyes filled with adoration.</p>
+                </div>
+              </div>
+              <div class="sectionOneCol2">
+                <div class="sectionOneFrame">
+                  <div class="frams">
+                    <div class="emptyBox BoxImg"></div>
+                    <div class="frameImg">
+                      <img src="HALDI/Frame.JPG" class="BoxImg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionTwo fullSideMarginPadding">
+          <div class="services ">
+            <div class="servicesContainer">
+              <div class="serviceHeading">
+                <p class="commonHeadingCenter">Our Services</p>
+              </div>
+              <div class="service">
+                <span class="ourService1">
+                  <img src="ENGAGEMENT/enggangement.avif" alt="">
+                  <p class="serviceName">ENGAGEMENT</p>
+                </span>
+                <span class="ourService2">
+                  <img src="WEDDING/wedding.avif" alt="">
+                  <p class="serviceName">WEDDING</p>
+                </span>
+                <span class="ourService3">
+                  <img src="PREWEDDING/prewedding.avif" alt="">
+                  <p class="serviceName">PRE WEDDING</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionThree fullSideMarginPadding">
+          <div class="numberOfShoot">
+            <div class="counting">
+              <div class="engagement">
+                <h3 class="countingSizeNum counter" data-target="60">0</h3>
+                <p class="countingSizehead">Engagement</p>
+              </div>
+              <span class="verticalLine"></span>
+              <div class="wedding">
+                <h3 class="countingSizeNum counter" data-target="100">0</h3>
+                <p class="countingSizehead">Wedding</p>
+              </div>
+              <span class="verticalLine"></span>
+              <div class="preWedding">
+                <h3 class="countingSizeNum counter" data-target="70">0</h3>
+                <p class="countingSizehead">Pre Wedding</p>
+              </div>
+              <span class="verticalLine"></span>
+              <div class="location">
+                <h3 class="countingSizeNum counter" data-target="60">0</h3>
+                <span>+</span>
+                <p class="countingSizehead">Location</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionFour fullSideMarginPadding">
+          <div class="gallery">
+            <div class="galleryHeading">
+              <p class="commonHeadingCenter">Our Amazing Work</p>
+            </div>
+            <div class="gallCollection">
+              <div class="gall image1"><img src="MEHNDI/legMehdi.JPG" alt=""></div>
+              <div class="image2"><img src="ENGAGEMENT/coupleVertical.jpg" alt=""></div>
+              <div class="gall image3"><img src="PREWEDDING/couple.jpg" alt=""></div>
+              <div class="gall image4"><img src="ENGAGEMENT/hand.jpg" alt=""></div>
+              <div class="gall image5"><img src="WEDDING/shaadi.jpg" alt=""></div>
+              <div class="gall image6"><img src="ENGAGEMENT/mirror.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionFive fullSideMarginPadding">
+          <div class="teams">
+            <div class="teamHeading">
+              <p class="commonHeadingCenter">Meet Our Teams</p>
+            </div>
+            <div class="teamProfile">
+              <div class="team1 commonSpace">
+                <div class="team1Profile">
+                  <img src="logo/akhilesh.jpg" alt="" class="commonTeamProfile">
+                </div>
+                <div class="commonDetailCenter">
+                  <div class="team1Name">
+                    <h3 class="commonDetailSpace">Akhilesh Prajapati</h3>
+                  </div>
+                  <div class="team1Job">
+                    <p class="commonDetailSpace">Editor & Photographer</p>
+                  </div>
+                  <div class="team1SocialHandel commonTeamSciHnd commonDetailSpace">
+                    <div class="commonSocialHandel">
+                      <i class="fa-brands fa-square-instagram"></i>
+                      <i class="fa-brands fa-square-facebook"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="team2 commonSpace">
+                <div class="team2Profile">
+                  <img src="logo/akhilesh.jpg" alt="" class="commonTeamProfile">
+                </div>
+                <div class="commonDetailCenter">
+                  <div class="team2Name">
+                    <h3 class="commonDetailSpace">Akhilesh Prajapati</h3>
+                  </div>
+                  <div class="team2Job">
+                    <p class="commonDetailSpace">Editor & Photographer</p>
+                  </div>
+                  <div class="team2SocialHandel commonTeamSciHnd commonDetailSpace">
+                    <div class="commonSocialHandel">
+                      <i class="fa-brands fa-square-instagram"></i>
+                      <i class="fa-brands fa-square-facebook"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="team3 commonSpace">
+                <div class="team3Profile">
+                  <img src="logo/akhilesh.jpg" alt="" class="commonTeamProfile">
+                </div>
+                <div class="commonDetailCenter">
+                  <div class="team3Name">
+                    <h3 class="commonDetailSpace">Akhilesh Prajapati</h3>
+                  </div>
+                  <div class="team3Job">
+                    <p class="commonDetailSpace">Editor & Photographer</p>
+                  </div>
+                  <div class="team3SocialHandel commonTeamSciHnd commonDetailSpace">
+                    <div class="commonSocialHandel">
+                      <i class="fa-brands fa-square-instagram"></i>
+                      <i class="fa-brands fa-square-facebook"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="team4 commonSpace">
+                <div class="team4Profile">
+                  <img src="logo/akhilesh.jpg" alt="" class="commonTeamProfile">
+                </div>
+                <div class="commonDetailCenter">
+                  <div class="team4Name">
+                    <h3 class="commonDetailSpace">Akhilesh Prajapati</h3>
+                  </div>
+                  <div class="team4Job">
+                    <p class="commonDetailSpace">Editor & Photographer</p>
+                  </div>
+                  <div class="team4SocialHandel commonTeamSciHnd commonDetailSpace">
+                    <div class="commonSocialHandel">
+                      <i class="fa-brands fa-square-instagram"></i>
+                      <i class="fa-brands fa-square-facebook"></i>
+                      <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionSix fullSideMarginPadding">
+          <div class="youtubeInsta">
+            <div class="youtube">
+              <a href="https://www.youtube.com/@glossypicturefactoryofficial" target="_blank">
+                <div class="youtubeVideo">
+                  <img src="ENGAGEMENT/mirror.jpg" alt="">
+                </div>
+                <h2 class="youtubeCaption">Let's Connect On YouTube</h2>
+              </a>
+            </div>
+            <div class="insta">
+              <div class="instaHeading">
+                <h3>INSTAGRAM</h3>
+              </div>
+              <div class="InstaPosts">
+                <div class="postCol1 Instacols">
+                  <img src="HALDI/DSC_2642.JPG" alt="">
+                  <img src="HALDI/DSC_2643.JPG" alt="">
+                  <img src="MEHNDI/_DSC1530.JPG" alt="">
+                </div>
+                <div class="postCol2 Instacols">
+                  <img src="PREWEDDING/DSC_3964.jpg" alt="">
+                  <img src="HALDI/Frame.JPG" alt="">
+                  <img src="MEHNDI/_DSC1738.JPG" alt="">
+                </div>
+                <div class="postCol3 Instacols">
+                  <img src="HALDI/DSC_2642.JPG" alt="">
+                  <img src="HALDI/DSC_2643.JPG" alt="">
+                  <img src="MEHNDI/_DSC1530.JPG" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionSeven fullSideMarginPadding">
+          <div class="footer">
+            <div class="footerContainer">
+              <div class="col_1Footer colFooter">
+                <div class="col_1Footer_Heading colFooHed">
+                  <h3 class="commonDetailSpace footerDetailSpace">WEDDING</h3>
+                </div>
+                <div class="col_1Footer_Caption">
+                  <p class="commonDetailSpace footerDetailSpace">Welcome and open youself to your trust love this year
+                    with us!</p>
+                </div>
+                <div class="col_1Footer_SocialHandle commonDetailSpace footerDetailSpace">
+                  <i class="fa-brands fa-youtube"></i>
+                  <i class="fa-brands fa-square-instagram"></i>
+                  <i class="fa-brands fa-square-facebook"></i>
+                  <i class="fa-brands fa-square-google-plus"></i>
+                </div>
+              </div>
+              <div class="col_2Footer colFooter">
+                <div class="col_2Footer_Heading colFooHed">
+                  <h3 class="commonDetailSpace footerDetailSpace">INFORMATION</h3>
+                </div>
+                <div class="col_2Footer_rows">
+                  <ul>
+                    <li class="commonDetailSpace footerDetailSpace">About Us</li>
+                    <li class="commonDetailSpace footerDetailSpace">Portfolio</li>
+                    <li class="commonDetailSpace footerDetailSpace">Contact Us</li>
+                    <li class="commonDetailSpace footerDetailSpace">Our Services</li>
+                    <li class="commonDetailSpace footerDetailSpace">About</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col_3Footer colFooter">
+                <div class="col_3Footer_Heading colFooHed">
+                  <h3 class="commonDetailSpace footerDetailSpace">CONTACT</h3>
+                </div>
+                <div class="col_3Footer_Caption">
+                  <p class="commonDetailSpace footerDetailSpace">Would you have any enquiries.Pleas fell free to contact
+                    us</p>
+                </div>
+                <div class="col_3Footer_SocialHandle commonDetailSpace footerDetailSpace">
+                  <div>
+                    <span class="footerSpan"><i class="fa-solid fa-envelope"></i></span>
+                    <span class="footerSpanCont">
+                      <a
+                        href="mailto:https://akhileshkumarprajapati7706@gmail.com">akhileshkumarprajapati7706@gmail.com</a>
+                    </span>
+                  </div>
+                  <div>
+                    <span class="footerSpan"><i class="fa-solid fa-square-phone"></i></span>
+                    <span class="footerSpanCont"><a href="tel:9506695760">+91 9506695760</a></span>
+                  </div>
+                  <div>
+                    <span class="footerSpan"><i class="fa-solid fa-location-dot"></i></span>
+                    <span class="footerSpanCont"><a href="">Location</a></span>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="sectionEight">
+          <div class="copyRightContainer">
+            <h3 class="copyRight copyRightContainer_space">&copy;2023 Glossy Picture Factory.All right reserved.</h3>
+            <h4 class="developer copyRightContainer_space">Developed By AKHILESH KUMAR PRAJAPATI</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    //Slide auto movies
+    var index = 0;
+    const slides = document.querySelectorAll(".B_Slides");
+    console.log(slides);
+    slideShows();
+    function slideShows() {
+      let i;
+      const slides = document.querySelectorAll(".B_Slides")
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      index++;
+      if (index > slides.length) {
+        index = 1;
+      }
+      slides[index - 1].style.display = "block";
+      setTimeout(slideShows, 4000); // Change image every 2 seconds
+    }
+  </script>
+</body>
+
+</html>

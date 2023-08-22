@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'inter','roboto';  */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+/*---------------------------SideBaar CSS---------------------*/
+.sideBar{
+    background-color:#8080803b;
+    width: auto;
+    position: fixed;
+    top: 35vh;
+    z-index:1;
+    border-radius:0 10px 10px 0;
+    box-shadow: 2px 3px 8px -3px;
+}
+.sideBarSpace{
+    padding: 0.3em 0.1em;
+}
+.CallLogo{
+    width: 3vw;
+    padding-left: 2px;
+    filter: drop-shadow(0px 3px 2px);
+}
+.whatsappLogo, .MailLogo{
+    filter: drop-shadow(0px 3px 2px);
+    width: 3.5vw;
+}
+/*---------------------------Header CSS---------------------*/
+.header{
+    width: 100%;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.companyNameAndLog{
+    display: flex;
+    align-items: center;
+}
+.CompNameAndCap b{
+    font-size: 2.1vw;
+    color: #ffffff;
+}
+.CompNameAndCap p{
+    color: #ffffff;
+    font-size: 1.36vw;
+}
+#NavLists{
+    display: flex;
+    list-style: none;
+}
+#NavLists li{
+    margin-left: 0.6rem;
+    color: #ffffff;
+    font-size: 1.2vw;
+    padding: 4px 4px 0px 4px;
+}
+.humbarger{
+    display: none;
+}
+#NavLists li:hover{
+    cursor: pointer;
+    background-color: #80808073;
+    border-radius: 2px;
+}
+.companyName img{
+    width: 9vw;
+    filter: drop-shadow(0px 3px 1px);
+}
+.B_Slides{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bannerContainer img{
+    width: 100%;
+}
+
+.B_Slides {
+    animation-name: B_Slides;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes B_Slides {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+/*---------------------------COMMON whole CSS---------------------*/
+
+.fullSideMarginPadding{
+    margin: 1rem 3.5rem;
+    padding:2em;
+}
+.commonHeadingCenter{
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/*---------------------------COMMON CSS---------------------*/
+
+/****************************************************************************************/
+
+/*---------------------------Main SectionOne---------------------*/
+.sectionOneContainerCol1{
+    display: flex;
+}
+.sectionOneHeading h3{
+    font-size:3vw;
+    font-weight: 500;
+}
+.sectionOneHeading h3 p{
+    color: #c7a575;
+}
+.sectionOneCaption p{
+    padding-top: 8px;
+    font-size:1.5vw;
+}
+.sectionOneCol1{
+    flex-basis: 45%;
+}
+.sectionOneCol2{
+    flex-basis: 55%;
+}
+.sectionOneFrame{
+    position: relative;
+    margin-left: 4rem;
+}
+/* .frams{
+    position: relative; 
+} */
+.emptyBox{
+    height: 50vh;
+    width: 78%;
+    border: 3px solid #c7a575 ;
+}
+.frameImg{
+    position: absolute;
+    width: 79%;
+    top: -6rem;
+    right: 0;
+}
+.frameImg img{
+    width: 100%;
+}
+
+/*---------------------------Main sectionTwo---------------------*/
+.service img{
+    width: 100%;
+}
+.service{
+    display: flex;
+    width: 100%;
+}
+.ourService2 img{
+    box-shadow:0px 6px 14px;
+
+}
+.servicesContainer{
+    margin: 0 10rem;
+}
+.serviceName{
+    text-align: center;
+    transform: translate(0,-2rem);
+    color: #ffffff;
+}
+/*---------------------------Main sectionThree---------------------*/
+
+.counting{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 30vh;
+    border: 2px solid #c7a575;
+}
+.countingSizeNum{
+    font-size: 6vw;
+}
+.countingSizehead{
+    font-size: 1.7vw;
+}
+.verticalLine{
+    height: 10vh;
+    border: 1px solid #c7a575;
+}
+/*---------------------------Main sectionFour---------------------*/
+.gallCollection{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    grid-column-gap:0.6rem;
+    width: 100%;
+}
+.gall img{
+    width: 100%;
+}
+.image2 img{
+    width: 100%;
+}
+.image6 img{
+    width:100%;
+}
+.image6{
+    grid-column-start:3;
+    grid-column-end:5; 
+}
+.image2{
+    grid-row-start: 1;
+    grid-row-end: 3; 
+} 
+/*---------------------------Main sectionFive---------------------*/
+.teamProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commonSpace{
+    margin: 1rem 0.5rem;
+    padding: 0.5em 2em;
+    border-radius: 10px;
+    box-shadow:2px 3px 8px -3px;
+}
+.commonDetailSpace{
+    margin: 0.5rem 0;
+    text-align: center;
+
+}
+.footerDetailSpace{
+    text-align: start;
+    list-style: none;
+}
+.commonTeamProfile{
+    width: 14vw;
+    border-radius: 50%;
+}
+/* .pairTeam{
+    display: inline-flex;
+} */
+/* .commonTeamSciHnd{
+    display: inline-block;
+} */
+/* .commonSocialHandel{
+    padding-left:2em;
+} */
+.fa-brands, .fa-solid{
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 21px;
+    
+}
+.fa-brands:hover{
+    cursor: pointer;
+    transform: translateY(5px);
+    transition: transform 0.5s;
+}
+.fa-solid:hover{
+    cursor: pointer;
+    transform: translateX(5px);
+    transition: transform 0.5s;
+}
+/* .circle{
+    height: 30vh;
+    width: 30vw;
+    border: 3px solid #c7a575 ;
+    margin: 20rem;
+    border-radius: 50%;
+} */
+
+/*---------------------------Main sectionSix---------------------*/
+.youtubeInsta{
+ display: flex;
+}
+.youtube{
+    flex: 65%;
+    position:relative;
+}
+.insta{
+    flex:35%;
+}
+.youtubeVideo img{
+    width: 100%;
+    filter: opacity(0.5);
+}
+.youtubeCaption{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:2vw;
+    color:#ffffff;
+    position: absolute;
+    bottom:50% ;
+    left:25% ;
+}
+.instaHeading h3{
+    padding-left: 4px;
+}
+.InstaPosts{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 7%;
+}
+.Instacols img{
+    width: 100%;
+}
+.Instacols{
+    flex: 30%;
+    width: 10%;
+    padding-left:4px;
+}
+/*---------------------------Main sectionSeven---------------------*/
+.footerContainer{
+    display:flex;
+    justify-content: center;
+    border: 2px solid #c7a575;
+    padding: 2em;
+}
+.colFooHed{
+    margin-bottom: 1.5rem;
+}
+.colFooter{
+    margin: 1rem 0.5rem;
+    padding: 0.5em 1em;
+} 
+.footer{
+    /* border: 2px solid #c7a575; */
+    margin-top: 6rem;
+}
+/* .fa-solid{
+    text-align: start;
+    padding: 0.3rem;
+    background-color: #c7a575;
+    border-radius: 50%;
+    margin-left:0 ;
+}  */
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/*---------------------------Main sectionEight---------------------*/
+
+.copyRightContainer_space{
+    margin: 1rem;
+}
+.copyRightContainer{
+    text-align: center;
+}
+/*---------------------------Media QuryFired---------------------*/
+/*---------------------------Media QuryFired---------------------*/
+/*---------------------------Media QuryFired---------------------*/
+@media only screen and (max-width: 1170px) {
+    .emptyBox{
+        height: 44vh;
+    }
+    #NavLists li{
+        margin-left: 0.4rem;
+    }
+    .fullSideMarginPadding {
+        margin: 1rem 2.5rem;
+    }
+    .footerContainer {
+        padding: 2em 0.5em;
+    }
+    .colFooter {
+        margin: 1rem 0.5rem;
+        padding: 0.5em 0.4em;
+    }
+    .copyRightContainer {
+        font-size: 1.3vw;
+    }
+    .serviceName {
+        font-size: 1.36vw;
+    }
+    .instaHeading h3,.footerDetailSpace{
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 1050px){
+    .emptyBox{
+        height: 38vh;
+    }
+    .commonSpace{
+        padding: 0.5em 1em;
+    }
+    .commonHeadingCenter{
+        font-size: 2.3vw;
+    }
+    .commonDetailSpace , .footerSpanCont a{
+        font-size: 1.53vw;
+    }
+    .fa-brands,.fa-solid{
+        font-size: 2vw;
+    }
+}
+@media only screen and (max-width:977px){
+    .colFooter {
+        padding: 0.5em 0 0.5em 0.4em;
+    }
+}
+/* @media only screen and (max-width:945px){
+        .emptyBox{
+            height: 36vh;
+        }
+} */
+@media only screen and (max-width:913px){
+    .colFooter {
+        padding: 0.5em 0 0.5em 0em;
+    }
+    .servicesContainer {
+        margin: 0 7rem;
+    }
+}
+
+@media only screen and (max-width:847px){
+ /* .pairTeam{
+    display: block;
+ } */
+ .teamProfile{
+    display: inline-flex;
+   flex-wrap: wrap;
+   gap: 12px;
+   gap: 0rem 4rem;
+ }
+ .commonSpace{
+    padding: 0.5em 2em;
+ }
+ .emptyBox{
+    height: 32vh;
+}
+ .footerContainer{
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 0 3rem;
+ }
+}
+@media only screen and (max-width:780px){
+    .emptyBox{
+        height: 28vh;
+    }
+}
+@media only screen and (max-width:780px){
+    .emptyBox{
+        height: 25vh;
+    }
+    .fullSideMarginPadding {
+        padding: 1em;
+    }
+}
+@media only screen and (max-width:670px){
+    .emptyBox{
+        height: 23vh;
+    }
+}
+@media only screen and (max-width:650px){
+    .humbarger{
+        display: block;
+        background-color: #808080a3;
+        border-radius: 5px;
+    }
+    #NavLists{
+        gap: 1rem;
+        display: none;
+        position: absolute;
+        text-align: center;
+        width: 23%;
+        top: 4.5rem;
+        right: 13%;
+    }
+    #NavLists li {
+        padding: 0.4rem 1.5rem;
+        background-color: #80808040;
+        border-radius: 10px;
+    }
+}
