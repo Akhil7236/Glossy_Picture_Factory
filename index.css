@@ -390,6 +390,9 @@ a{
     .commonSpace{
         padding: 0.5em 1em;
     }
+    .sectionOneCaption p{
+        font-size:1.7vw;
+    }
     .commonHeadingCenter{
         font-size: 2.3vw;
     }
@@ -417,6 +420,9 @@ a{
     .servicesContainer {
         margin: 0 7rem;
     }
+    .emptyBox{
+        height: 34vh;
+    }
 }
 
 @media only screen and (max-width:847px){
@@ -433,8 +439,8 @@ a{
     padding: 0.5em 2em;
  }
  .emptyBox{
-    height: 32vh;
-}
+    height: 29vh;
+} 
  .footerContainer{
     display: inline-flex;
     flex-wrap: wrap;
@@ -444,21 +450,22 @@ a{
 @media only screen and (max-width:780px){
     .emptyBox{
         height: 28vh;
-    }
-}
-@media only screen and (max-width:780px){
-    .emptyBox{
-        height: 25vh;
-    }
+    } 
     .fullSideMarginPadding {
         padding: 1em;
     }
 }
-@media only screen and (max-width:670px){
+@media only screen and (max-width:750px){
+    .emptyBox{
+        height: 26vh;
+    } 
+}
+@media only screen and (max-width:680px){
     .emptyBox{
         height: 23vh;
     }
 }
+/* For mobile */
 @media only screen and (max-width:650px){
     .humbarger{
         display: block;
@@ -479,4 +486,99 @@ a{
         background-color: #80808040;
         border-radius: 10px;
     }
+    .sectionOneContainerCol1 {
+        display: block;
+    }
+    .sectionOneFrame {
+        margin-left: 0; 
+    }
+    .emptyBox{
+        height:50vh;
+    }
+    .sectionOneFrame {
+        margin-top: 135px;
+    }
+    .sectionOneHeading h3 p {
+        display: inline;
+    }
+    .sectionOneHeading h3 {
+        font-size: 4vw;
+    }
+    .sectionOneCaption p {
+        font-size: 2.5vw;
+    }
+    .companyName img {
+        width: 13vw;
+    }
+    .CompNameAndCap b {
+        font-size: 3vw;
+    }
+    .CompNameAndCap p {
+        font-size: 2.1vw;
+    }
+    #NavLists li {
+        margin-left:0;
+        font-size: 1.8vw;
+        padding: 0.4rem 0px;
+    }
+    #NavLists {
+        gap: 0.5rem;
+        width: 15%;
+    }
+    .whatsappLogo,.MailLogo{
+        width: 5.5vw;
+    }
+    .CallLogo {
+        width: 5vw;
+    }
+    .service {
+        display: block;
+    }
+    .commonHeadingCenter {
+        font-size: 3.3vw;
+    }
+    .serviceName {
+        font-size: 2.36vw;
+    }
+    .companyName img {
+        width: 15vw;
+    }
+    .servicesContainer {
+        margin: 0 3rem;
+    }
+}
+@media only screen and (max-width:580px){
+    .emptyBox{
+        height: 48vh;
+    } 
+}
+@media only screen and (max-width:535px){
+    .emptyBox{
+        height: 44vh;
+    } 
+}
+@media only screen and (max-width:500px){
+    .emptyBox{
+        height: 39vh;
+    } 
+}
+@media only screen and (max-width:480px){
+    .emptyBox{
+        height: 36vh;
+    } 
+}
+@media only screen and (max-width:460px){
+    .emptyBox{
+        height: 34vh;
+    } 
+}
+@media only screen and (max-width:446px){
+    .emptyBox{
+        height: 32vh;
+    } 
+}
+@media only screen and (max-width:420px){
+    .emptyBox{
+        height: 28vh;
+    } 
 }
