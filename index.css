@@ -467,6 +467,9 @@ a{
 }
 /* For mobile */
 @media only screen and (max-width:650px){
+    .fullSideMarginPadding {
+        padding:0 1em;
+    }
     .humbarger{
         display: block;
         background-color: #808080a3;
@@ -493,7 +496,7 @@ a{
         margin-left: 0; 
     }
     .emptyBox{
-        height:50vh;
+        height:44vh;
     }
     .sectionOneFrame {
         margin-top: 135px;
@@ -549,36 +552,36 @@ a{
 }
 @media only screen and (max-width:580px){
     .emptyBox{
-        height: 48vh;
+        height: 39vh;
     } 
 }
 @media only screen and (max-width:535px){
     .emptyBox{
-        height: 44vh;
+        height: 34vh;
     } 
 }
 @media only screen and (max-width:500px){
     .emptyBox{
-        height: 39vh;
+        height: 30vh;
     } 
 }
 @media only screen and (max-width:480px){
     .emptyBox{
-        height: 36vh;
+        height: 28vh;
     } 
 }
 @media only screen and (max-width:460px){
     .emptyBox{
-        height: 34vh;
+        height: 27vh;
     } 
 }
 @media only screen and (max-width:446px){
     .emptyBox{
-        height: 32vh;
+        height: 25vh;
     } 
 }
 @media only screen and (max-width:420px){
     .emptyBox{
-        height: 28vh;
+        height: 23vh;
     } 
 }
