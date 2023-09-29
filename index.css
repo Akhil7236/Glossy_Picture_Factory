@@ -180,7 +180,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 30vh;
+    /* height: 30vh; */
+    padding: 2rem 0rem;
     border: 2px solid #c7a575;
 }
 .countingSizeNum{
@@ -489,6 +490,9 @@ a{
         background-color: #80808040;
         border-radius: 10px;
     }
+    .verticalLine{
+        display: none;
+    }
     .sectionOneContainerCol1 {
         display: block;
     }
@@ -524,15 +528,26 @@ a{
         font-size: 1.8vw;
         padding: 0.4rem 0px;
     }
+    .counting{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 2rem;
+    }
+    .countingSizeNum{
+        font-size: 12vw;
+    }
+    .countingSizehead{
+        font-size: 3.7vw;
+    }
     #NavLists {
         gap: 0.5rem;
         width: 15%;
     }
     .whatsappLogo,.MailLogo{
-        width: 5.5vw;
+        width: 7.5vw;
     }
     .CallLogo {
-        width: 5vw;
+        width: 7vw;
     }
     .service {
         display: block;
@@ -547,7 +562,7 @@ a{
         width: 15vw;
     }
     .servicesContainer {
-        margin: 0 3rem;
+        margin: 0 0rem;
     }
 }
 @media only screen and (max-width:580px){
