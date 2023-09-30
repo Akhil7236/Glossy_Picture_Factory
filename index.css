@@ -227,7 +227,7 @@
 }
 .commonSpace{
     margin: 1rem 0.5rem;
-    padding: 0.5em 2em;
+    padding: 1em 3em;
     border-radius: 10px;
     box-shadow:2px 3px 8px -3px;
 }
@@ -236,12 +236,15 @@
     text-align: center;
 
 }
+/* .allTeamProfileSpace{
+    padding: 1rem;
+} */
 .footerDetailSpace{
     text-align: start;
     list-style: none;
 }
 .commonTeamProfile{
-    width: 14vw;
+    width:100%;
     border-radius: 50%;
 }
 /* .pairTeam{
@@ -514,6 +517,18 @@ a{
     .sectionOneCaption p {
         font-size: 2.5vw;
     }
+    .commonSpace{
+        margin: 1rem 5.5rem;
+    }
+    /* .allTeamProfileSpace{
+        padding: 3em;
+    } */
+    .commonDetailSpace, .footerSpanCont a {
+        font-size: 4vw;
+    }
+    .fa-brands,.fa-solid{
+        font-size: 4vw;
+    }
     .companyName img {
         width: 13vw;
     }
@@ -523,10 +538,16 @@ a{
     .CompNameAndCap p {
         font-size: 2.1vw;
     }
+    .youtubeInsta{
+        display: block;
+    }
     #NavLists li {
         margin-left:0;
         font-size: 1.8vw;
         padding: 0.4rem 0px;
+    }
+    .footerContainer{
+        flex-direction: column;
     }
     .counting{
         display: grid;
@@ -550,6 +571,9 @@ a{
         width: 7vw;
     }
     .service {
+        display: block;
+    }
+    .gallCollection{
         display: block;
     }
     .commonHeadingCenter {
