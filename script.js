@@ -5,20 +5,16 @@ function portfolioFunction(){
 }
 
 //Taggel Humbarger
-    // function callHumbarger(){
-    //   var barger=document.getElementById("NavLists");
-    //   if(barger.style.display === "none"){
-    //     barger.style.display ="inline-grid";
-    //   }
-    //   else{
-    //     barger.style.display ="none";
-    //   }
-    // }
     function callHumbarger(){
       var barger=document.getElementById("NavLists");
-      barger.classList.toggle("NavLstToggle");
-
+      if(barger.style.display === "inline-grid"){
+        barger.style.display ="none";
+      }
+      else{
+        barger.style.display ="inline-grid";
+      }
     }
+
 
 // Function to start the counting effect
 function countUp(element) {
