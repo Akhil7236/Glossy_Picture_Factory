@@ -480,13 +480,16 @@ a{
         border-radius: 5px;
     }
     #NavLists{
-        gap: 1rem;
-        display: none;
+        gap: 0.5rem;
         position: absolute;
         text-align: center;
-        width: 23%;
-        top: 4.5rem;
-        right: 13%;
+        width: 15%;
+        top: 1rem;
+        right: 15%;
+        display: none;
+    }
+    .NavLstToggle{
+        display:inline-grid;
     }
     #NavLists li {
         padding: 0.4rem 1.5rem;
@@ -511,11 +514,20 @@ a{
     .sectionOneHeading h3 p {
         display: inline;
     }
+    .nav{
+        padding: 0;
+        margin-left: 2em;
+        margin-right: 2em;
+        margin-top: 0.5em;
+    }
     .sectionOneHeading h3 {
-        font-size: 4vw;
+        font-size: 5.5vw;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .sectionOneCaption p {
-        font-size: 2.5vw;
+        font-size: 4vw;
     }
     .commonSpace{
         margin: 1rem 5.5rem;
@@ -533,10 +545,10 @@ a{
         width: 13vw;
     }
     .CompNameAndCap b {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .CompNameAndCap p {
-        font-size: 2.1vw;
+        font-size: 3.1vw;
     }
     .youtubeInsta{
         display: block;
@@ -560,10 +572,10 @@ a{
     .countingSizehead{
         font-size: 3.7vw;
     }
-    #NavLists {
+    /* #NavLists {
         gap: 0.5rem;
         width: 15%;
-    }
+    } */
     .whatsappLogo,.MailLogo{
         width: 7.5vw;
     }
@@ -593,6 +605,9 @@ a{
     .emptyBox{
         height: 39vh;
     } 
+    .commonSpace {
+        margin: 1rem 3.5rem;
+    }
 }
 @media only screen and (max-width:535px){
     .emptyBox{
@@ -608,6 +623,9 @@ a{
     .emptyBox{
         height: 28vh;
     } 
+    .commonSpace {
+        margin: 1rem 3rem;
+    }
 }
 @media only screen and (max-width:460px){
     .emptyBox{
@@ -618,6 +636,9 @@ a{
     .emptyBox{
         height: 25vh;
     } 
+    .commonSpace {
+        margin: 1rem 2rem;
+    }
 }
 @media only screen and (max-width:420px){
     .emptyBox{

@@ -5,14 +5,19 @@ function portfolioFunction(){
 }
 
 //Taggel Humbarger
+    // function callHumbarger(){
+    //   var barger=document.getElementById("NavLists");
+    //   if(barger.style.display === "none"){
+    //     barger.style.display ="inline-grid";
+    //   }
+    //   else{
+    //     barger.style.display ="none";
+    //   }
+    // }
     function callHumbarger(){
       var barger=document.getElementById("NavLists");
-      if(barger.style.display === "none"){
-        barger.style.display ="inline-grid";
-      }
-      else{
-        barger.style.display ="none";
-      }
+      barger.classList.toggle("NavLstToggle");
+
     }
 
 // Function to start the counting effect
